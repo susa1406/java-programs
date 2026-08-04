@@ -3,11 +3,11 @@
  */
 public class add {
  public static void main(String[] args) {
-    int add=2020;
-    System.out.println(add/4);
-    System.out.println(add/400);
-    System.out.println(add%4);
-    System.out.println(add%400);
+   String a[]={"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
+   System.out.println("array length:"+a.length);
+   for(int i=0;i<a.length;i++){
+      System.out.print(a[i]+" ");
+   }
  }
     
 }
